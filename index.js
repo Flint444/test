@@ -1,0 +1,1 @@
+console.log("Sum 1 + 2 =", 1+2)
