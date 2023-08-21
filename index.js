@@ -21,3 +21,6 @@ let student = {
 
   console.log(json1)
   console.log(json2)
+
+  console.log("Hi")
+  console.log("Hi")
