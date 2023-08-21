@@ -7,6 +7,8 @@ let student = {
   };
   
   let json = JSON.stringify(student);
+
+  console.log(json)
   
   alert(typeof json); // мы получили строку!
   
