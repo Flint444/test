@@ -1,8 +1,13 @@
-console.log("Sum 1 + 2 =", 1+2)
-console.log("Sum 3 + 4 =", 3+4)
-console.log("Sum 5 + 4 =", 5+4)
-console.log("Sum 5 + 4 =", 5+4)
-console.log("Sum 5 + 4 =", 5+4)
-console.log("Sum 5 + 4 =", 5+4)
-console.log("Sum 5 + 4 =", 5+4)
-console.log("Sum 5 + 4 =", 5+4)
+let student = {
+    name: 'John',
+    age: 30,
+    isAdmin: false,
+    courses: ['html', 'css', 'js'],
+    wife: null
+  };
+  
+  let json = JSON.stringify(student);
+  
+  alert(typeof json); // мы получили строку!
+  
+  alert(json);
