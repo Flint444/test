@@ -10,6 +10,14 @@ let student = {
 
   console.log(json)
   
-  alert(typeof json); // мы получили строку!
-  
-  alert(json);
+  let user = {
+    name: "Василий Иванович",
+    age: 35
+  };
+
+  let json1 = JSON.stringify(user);
+
+  json2 = JSON.parse(json1)
+
+  console.log(json1)
+  console.log(json2)
